@@ -1,0 +1,7 @@
+! -> required type
+# to fetch anything from graphql server, we use query 
+# to give anything to graphql server, we use mutation
+# for a query we write the logic for a query in the resolver 
+# if we want to fetch the user of todo , we have to write resolver {user : async(todo) => return the user having todo.id}
+# In above line , first argument is the parent , so parent's id will be taken and the user corresponding to that will be fetched
+# In react , we use apollo client to use graphql 
